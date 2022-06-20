@@ -1,0 +1,38 @@
+.welcome-card {
+    width: 55%;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: #a8dadc !important;
+}
+
+.welcome-card .card-body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.welcome-card .card-header {
+    user-select: none;
+}
+
+
+.welcome-card .card-title {
+    font-size: 3rem;
+    margin-bottom: 8vh;
+    user-select: none;
+}
+
+.welcome-card .card-text {
+    font-size: 2rem;
+    margin-bottom: 3vh;
+    user-select: none;
+}
+
+.welcome-card .link {
+    align-self: flex-end;
+    margin-top: 10vh;
+    color: #212529;
+}

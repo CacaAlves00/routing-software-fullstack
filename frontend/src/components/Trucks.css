@@ -1,0 +1,44 @@
+#truck-table {
+    margin: 5vh auto 0 auto;
+
+    height: 80vh;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px !important;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#truck-table .table {
+    height: 80%;
+    text-align: center;
+}
+
+#truck-table .table thead, #truck-table .table th {
+    background-color: #0077B6;
+    border: none;
+    color: #FDFBF7;
+    font-weight: 400;
+}
+
+#truck-table .table tbody, #truck-table .table td {
+    border: none;
+    font-weight: 400;
+}
+
+#truck-table .table tbody tr, #truck-table .table tbody td {
+    max-height: 10px !important;
+    background-color: #f1faee;
+}
+
+#truck-table .spinner {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#truck-table .button {
+    align-self: flex-end;
+}

@@ -1,0 +1,44 @@
+#delivery-table {
+    margin: 5vh auto 0 auto;
+
+    height: 80vh;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px !important;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#delivery-table .table {
+    height: 80%;
+    text-align: center;
+}
+
+#delivery-table .table thead, #delivery-table .table th {
+    background-color: #0077B6;
+    border: none;
+    color: #FDFBF7;
+    font-weight: 400;
+}
+
+#delivery-table .table tbody, #delivery-table .table td {
+    border: none;
+    font-weight: 400;
+}
+
+#delivery-table .table tbody tr, #delivery-table .table tbody td {
+    max-height: 10px !important;
+    background-color: #f1faee;
+}
+
+#delivery-table .spinner {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#delivery-table .button {
+    align-self: flex-end;
+}

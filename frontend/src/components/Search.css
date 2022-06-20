@@ -1,0 +1,32 @@
+.search-input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 25vw;
+    height: 6vh;
+    padding-left: 0.8vw;
+
+    cursor: pointer;
+
+    border: 1px solid #1D3557;
+    border-radius: 1px;
+}
+
+.search-input input {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.search-input img {
+    margin-right: 5vw;
+    padding: 0;
+    height: 70%; 
+}

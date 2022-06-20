@@ -1,0 +1,33 @@
+#import-file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+#import-file input {
+    height: 5.3vh;
+}
+
+#import-file select {
+    width: 10vw;
+    height: 5.3vh;
+}
+
+#import-file .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 25vw;
+}
+
+#import-file .buttons > * {
+    flex: 1;
+    margin-left: 3vw;
+}
+
+.import-file-alert {
+    margin-top: 3vh;
+}

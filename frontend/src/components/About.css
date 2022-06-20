@@ -1,0 +1,39 @@
+.about-card {
+    width: 55%;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: #a8dadc !important;
+}
+
+.about-card .card-body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-card .card-header {
+    user-select: none;
+}
+
+
+.about-card .card-title {
+    font-size: 3rem;
+    margin-bottom: 8vh;
+    user-select: none;
+}
+
+.about-card .card-text {
+    font-size: 1.4rem;
+    margin-bottom: 2vh;
+    user-select: none;
+}
+
+.about-card .link {
+    align-self: flex-end;
+    margin-top: 10vh;
+    color: #212529;
+}

@@ -1,0 +1,20 @@
+nav {
+    height: 10vh;
+    margin-bottom: 6vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-right: 55%;
+    box-sizing: border-box;
+}
+
+/* nav p {
+    box-sizing: border-box;
+    padding-top: 1vh;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: black;
+    
+} */
