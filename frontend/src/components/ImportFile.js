@@ -24,9 +24,9 @@ function ImportFile() {
         if (errSaving == null)
             return
 
-        // setTimeout(() => {
-        //     window.location.href = process.env.REACT_APP_FRONTEND_URL + 'list-deliveries'
-        // }, 2000)
+        setTimeout(() => {
+            window.location.href = process.env.REACT_APP_FRONTEND_URL + 'list-deliveries'
+        }, 2000)
     }, [errSaving])
 
     function handleFiles(event) {

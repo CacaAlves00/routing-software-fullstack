@@ -1,8 +1,8 @@
--- Database: routing
+-- Database: routing_database
 
--- DROP DATABASE IF EXISTS routing;
+-- DROP DATABASE IF EXISTS routing_database;
 
-CREATE DATABASE routing
+CREATE DATABASE routing_database
     WITH
     OWNER = caca
     ENCODING = 'UTF8'
@@ -11,9 +11,9 @@ CREATE DATABASE routing
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1;
 
-GRANT ALL ON DATABASE routing TO caca;
+GRANT ALL ON DATABASE routing_database TO caca;
 
-GRANT TEMPORARY, CONNECT ON DATABASE routing TO PUBLIC;
+GRANT TEMPORARY, CONNECT ON DATABASE routing_database TO PUBLIC;
 
 -- Table: public.truck
 
